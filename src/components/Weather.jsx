@@ -218,20 +218,20 @@ const Weather = () => {
         
 
 {/* Humidity */}
-<div className="col flex items-center  bg-white p-4 rounded-lg shadow-sm transition-transform transform hover:scale-105">
+<div className="col flex items-center bg-yellow-500 p-4 rounded-lg shadow-sm transition-transform transform hover:scale-105">
   <img src={humidity_icon} alt="Humidity" className="w-12 h-12 sm:w-10 sm:h-10" />
   <div>
     <p className="text-lg font-semibold text-gray-800">{weather.humidity} %</p>
-    <span className="text-sm text-gray-500">Humidity</span>
+    <span className="text-sm ">Humidity</span>
   </div>
 </div>
 
 {/* Wind Speed */}
-<div className="col flex items-center bg-white p-4 rounded-lg shadow-sm transition-transform transform hover:scale-105">
+<div className="col flex items-center bg-yellow-500 p-4 rounded-lg shadow-sm transition-transform transform hover:scale-105">
   <img src={wind_icon} alt="Wind Speed" className="w-12 h-12 sm:w-10 sm:h-10" />
   <div>
     <p className="text-lg font-semibold text-gray-800">{weather.windSpeed} km/h</p>
-    <span className="text-sm text-gray-500">Wind Speed</span>
+    <span className="text-sm">Wind Speed</span>
   </div>
 </div>
 
